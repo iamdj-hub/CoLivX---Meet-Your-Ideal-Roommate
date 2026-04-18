@@ -5,7 +5,7 @@ export default function UserProfile() {
 const { state } = useLocation();
 const { username } = useParams();
 const navigate = useNavigate();
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://colivx-meet-your-ideal-roommate.onrender.com";
 
 const [user, setUser] = useState(state || null);
 const [loading, setLoading] = useState(!state);

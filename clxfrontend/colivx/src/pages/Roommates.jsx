@@ -6,7 +6,7 @@ import { onAuthStateChanged } from "firebase/auth";
 
 export default function Roommates() {
 
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://colivx-meet-your-ideal-roommate.onrender.com";
 
   const [myProfile, setMyProfile] = useState(null);
   const [loading, setLoading] = useState(true);

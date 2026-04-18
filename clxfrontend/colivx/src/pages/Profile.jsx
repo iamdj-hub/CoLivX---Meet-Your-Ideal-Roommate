@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Profile() {
 
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://colivx-meet-your-ideal-roommate.onrender.com";
 
     const [user, setUser] = useState(null);
     const [isEditing, setIsEditing] = useState(false);

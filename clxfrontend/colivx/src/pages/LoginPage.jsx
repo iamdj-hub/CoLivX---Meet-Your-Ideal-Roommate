@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
   const navigate = useNavigate();
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://colivx-meet-your-ideal-roommate.onrender.com";
 
 
   const [mode, setMode] = useState("login");
